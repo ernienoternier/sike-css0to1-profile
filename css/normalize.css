@@ -18,7 +18,7 @@ html {
 
 body {
   margin: 0;
-  background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
+  background-image: url(../img/bg5.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -52,7 +52,7 @@ body {
   display: block;
   margin: auto;
   margin-top: -70px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   width: 25%;
   border-radius: 999px;
   box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
@@ -61,10 +61,17 @@ body {
 
 .main-nav {
   background-color: #333;
+  text-align: center;
+}
+
+.main-nav ul {
+  background-color: #333;
+  padding: 1px;
 }
 
 .main-nav ul li {
   margin: 15px 10px;
+  margin-top: -20px;
 }
 
 .main-nav ul li a {
@@ -84,11 +91,83 @@ ul.no-style{
  list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center;
+  
+  padding: 1px;
 }
 ul.inline-items li{
   display: inline-block;
 }
+
+.info-section{
+  background-color: #fff;
+  margin-top: -20px;
+  padding: 40px 60px;
+}
+
+.info-section header h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom:60px;
+  text-align:center;
+  
+}
+
+.info-section__description {
+  font-style: italic;
+  text-align: center;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+  border-bottom: 3px solid black;
+}
+
+.whatido__skill{
+padding-top: 95px;
+}
+
+.whatido__skill-list{
+text-align:center;
+}
+
+.whatido__skill--code {
+  background-image: url(../img/skill-code.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.whatido__skill--design {
+  background-image: url(../img/skill-design.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.whatido__skill--product {
+  background-image: url(../img/skill-product.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.float-layout {
+  overflow: hidden;
+}
+
+.float-layout .child {
+  float: left;
+}
+
+.child--20 {
+  width: 20%;
+}
+
+.child--33 {
+  width: 33%;
+}
+
+
 
 /* HTML5 display definitions
    ========================================================================== */
