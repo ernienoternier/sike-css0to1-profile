@@ -10,6 +10,11 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /**
@@ -110,7 +115,14 @@ ul.inline-items li{
   letter-spacing: 3px;
   margin-bottom:60px;
   text-align:center;
-  
+  #border-bottom: 3px solid black;
+}
+
+.info-section header h2:after {
+  content:"";
+  display:table;
+  clear:both;
+  border-bottom: 3px solid black;
 }
 
 .info-section__description {
@@ -151,12 +163,50 @@ text-align:center;
   background-position: center top;
 }
 
+.education-experience__list img{
+width: 180px;
+}
+
+.education-experience__list h3{
+  padding-left: 60px;
+    overflow: hidden;
+}
+
+.education-experience__title{
+padding-left: 60px;
+    overflow: hidden;
+}
+
+.education-experience__description content{
+margin-left: 60px; ##
+    overflow: hidden;
+}
+
+.photos__list{
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.photos__element{
+    width: 100%;
+}
+
 .float-layout {
   overflow: hidden;
 }
 
 .float-layout .child {
   float: left;
+}
+
+.float-left {
+  float: left;
+}
+
+.content {
+  padding-left: 60px;
+  overflow: hidden;
 }
 
 .child--20 {
