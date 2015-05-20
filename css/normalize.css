@@ -76,7 +76,7 @@ body {
 
 .main-nav ul li {
   margin: 15px 10px;
-  margin-top: -20px;
+  #margin-top: -20px;
 }
 
 .main-nav ul li a {
@@ -105,7 +105,7 @@ ul.inline-items li{
 
 .info-section{
   background-color: #fff;
-  margin-top: -20px;
+  #margin-top: px;
   padding: 40px 60px;
 }
 
