@@ -136,20 +136,20 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
         <header>
           <h2>Get in Touch</h2>
         </header>
-        <ul class="get-in-touch__list  no-style">
-          <li>
+        <ul class="get-in-touch__list  no-style inline-items">
+          <li class="get-in-touch__list-element">
             <a href="#"><img src="img/fb-icon.png" alt=""></a>
             <p>Facebook</p>
           </li>
-          <li>
+          <li class="get-in-touch__list-element">
             <img src="img/twitter-icon.png" alt="">
             <p>Twitter</p>
           </li>
-          <li>
+          <li class="get-in-touch__list-element">
             <img src="img/linkedin-icon.png" alt="">
             <p>Twitter</p>
           </li>
-          <li>
+          <li class="get-in-touch__list-element">
             <img src="img/email-icon.png" alt="">
             <p>Twitter</p>
           </li>
@@ -160,15 +160,34 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
         <header>
           <h2>Or...Leave a Message</h2>
         </header>
+        <div class="formlist">
         <form action="">
-          <label for="name">Name</label>
+        
+        <div  class="box">
           <input name="name" id="name" type="text">
-          <label for="email">Email</label>
-          <input name="email" id="email" type="email">
-          <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
+            <!-- <div class="align-left"> -->
+          <label  class="align-left" for="name">Name</label>
+            <!-- </div> -->
+        </div>
+          
+         <div  class="box">
+          <input class="box" name="email" id="email" type="email">
+             <div class="align-left">
+             <label  for="email">Email</label>
+             </div>
+            </div>
+          
+             <div  class="box">
+          <textarea  name="message" id="message"></textarea>
+                 <!-- <div class="align-left"> -->
+                 <label class="align-left" for="message">Message</label>
+                 <!-- </div> -->
+            </div>
+        <div  class="box">
           <button type="submit">Submit</button>
+            </div>
         </form>
+        </div>
       </section>
 
     </div>

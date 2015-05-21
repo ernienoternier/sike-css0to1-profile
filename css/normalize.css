@@ -168,12 +168,14 @@ width: 180px;
 }
 
 .education-experience__list h3{
+    #margin-top: -15px;
   padding-left: 60px;
     overflow: hidden;
 }
 
 .education-experience__title{
 padding-left: 60px;
+    font-weight: bold;
     overflow: hidden;
 }
 
@@ -191,6 +193,64 @@ margin-left: 60px; ##
 .photos__element{
     width: 100%;
 }
+
+.get-in-touch__list{
+ text-align: center;
+    padding: 10px;
+}
+
+.get-in-touch__list-element{
+    #width: 20%;
+    padding-left: 10px;
+}
+
+
+.contact {
+    #width: 40%;
+    text-align: center;
+}
+
+
+.formlist{
+#width: 40%;
+    #text-align: center;
+}
+.contact input,
+.contact textarea {
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact form{
+    #width: 40%;
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+.box{
+    #width: 40%;
+ position: relative;
+}
+
+.align-left {
+  position: absolute;
+  top: 0;
+  left: -10%;
+  width: 40%;
+  text-align: right;
+}
+
 
 .float-layout {
   overflow: hidden;
